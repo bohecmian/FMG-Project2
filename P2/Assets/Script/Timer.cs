@@ -8,7 +8,7 @@ public class Timer : MonoBehaviour
 {
     // Start is called before the first frame update
 
-    float countdown = 10;
+    float countdown = 60;
 
     public TMP_Text tex;
 
