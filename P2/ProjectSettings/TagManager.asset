@@ -13,6 +13,8 @@ TagManager:
   - Gold1
   - Gold2
   - Art
+  - GoldKey
+  - ArtKey
   layers:
   - Default
   - TransparentFX

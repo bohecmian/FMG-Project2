@@ -18,7 +18,7 @@ public class Press : MonoBehaviour
     public GameObject Gold2;
 
     public GameObject GoldKey;
-    public bool goldkey = false;
+    public int goldkey = 0;
 
     public GameObject ArtKey;
     public bool artKey = false;
@@ -35,7 +35,7 @@ public class Press : MonoBehaviour
     public int gold1 = 500;
     public int gold2 = 5000;
 
-    public int art = 1000;
+    public int art = 500;
 
 
     public int CashItem = 0;
@@ -195,6 +195,29 @@ public class Press : MonoBehaviour
                 }
                 ArtText.text = "Art: " + ArtItem.ToString();
                 Debug.Log(ArtItem);
+            }
+        }
+
+        else if (other.gameObject.tag == "GoldKey")
+        {
+            CollectText.SetActive(true);
+
+            if (Input.GetKey(KeyCode.E))
+            {
+                goldkey = 1;
+                Destroy(GoldKey);
+                CollectText.SetActive(false);
+            }
+        }
+        else if (other.gameObject.tag == "ArtKey")
+        {
+            CollectText.SetActive(true);
+
+            if (Input.GetKey(KeyCode.E))
+            {
+                artKey = true;
+                Destroy(ArtKey);
+                CollectText.SetActive(false);
             }
         }
     }
