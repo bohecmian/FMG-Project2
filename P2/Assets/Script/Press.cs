@@ -21,7 +21,7 @@ public class Press : MonoBehaviour
     public int goldkey = 0;
 
     public GameObject ArtKey;
-    public bool artKey = false;
+    public int artKey = 0;
 
     public GameObject Art;
 
@@ -215,7 +215,7 @@ public class Press : MonoBehaviour
 
             if (Input.GetKey(KeyCode.E))
             {
-                artKey = true;
+                artKey = 1;
                 Destroy(ArtKey);
                 CollectText.SetActive(false);
             }

@@ -6,13 +6,14 @@ using UnityEngine;
 public class DoorScipt : MonoBehaviour
 {
     // Start is called before the first frame update
-    [SerializeField] Press P;
+    [SerializeField] Press PP;
     public GameObject GoldDoor;
+    public GameObject ArtDoor;
     public GameObject DoorEnter;
     void Start()
     {
-        P = FindAnyObjectByType<Press>();
-        Debug.Log(P.goldkey);
+        PP = FindAnyObjectByType<Press>();
+        Debug.Log(PP.goldkey);
         DoorEnter.SetActive(false);
     }
 
@@ -22,8 +23,22 @@ public class DoorScipt : MonoBehaviour
         if(other.gameObject.tag == "Player")
         {
             DoorEnter.SetActive(true);
-            Destroy(GoldDoor);
-            DoorEnter.SetActive(false);
+            if(PP.goldkey >= 1)
+            {
+                Destroy(GoldDoor);
+                DoorEnter.SetActive(false);
+            }
+            
+        }
+        else if (other.gameObject.tag == "Player")
+        {
+            DoorEnter.SetActive(true);
+            if (PP.artKey >= 1)
+            {
+                Destroy(ArtDoor);
+                DoorEnter.SetActive(false);
+            }
+
         }
     }
 
