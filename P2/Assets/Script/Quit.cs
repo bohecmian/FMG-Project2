@@ -20,7 +20,7 @@ public class Quit : MonoBehaviour
         {
             if(P.CashItem >= 500)
             {
-                SceneManager.LoadScene("SampleScene");
+                SceneManager.LoadScene("GaryBox");
             }
         }
     }

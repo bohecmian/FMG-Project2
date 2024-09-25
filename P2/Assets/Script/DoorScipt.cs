@@ -9,6 +9,8 @@ public class DoorScipt : MonoBehaviour
     [SerializeField] Press PP;
     public GameObject GoldDoor;
     public GameObject ArtDoor;
+    public GameObject HallDoor;
+    public GameObject ScurityDoor;
     public GameObject DoorEnter;
     void Start()
     {
@@ -18,7 +20,7 @@ public class DoorScipt : MonoBehaviour
     }
 
     // Update is called once per frame
-    private void OnTriggerStay(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.tag == "Player")
         {
@@ -30,7 +32,7 @@ public class DoorScipt : MonoBehaviour
             }
             
         }
-        else if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player")
         {
             DoorEnter.SetActive(true);
             if (PP.artKey >= 1)
@@ -39,6 +41,14 @@ public class DoorScipt : MonoBehaviour
                 DoorEnter.SetActive(false);
             }
 
+        }
+        if(other.gameObject.tag == "Player")
+        {
+            Destroy(HallDoor);
+        }
+        if (other.gameObject.tag == "Player")
+        {
+            Destroy(ScurityDoor);
         }
     }
 
