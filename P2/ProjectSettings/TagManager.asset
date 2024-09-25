@@ -9,6 +9,9 @@ TagManager:
   - Cash1
   - Cash2
   - Cash3
+  - Gold
+  - Gold1
+  - Gold2
   layers:
   - Default
   - TransparentFX
