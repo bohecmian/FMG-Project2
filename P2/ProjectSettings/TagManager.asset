@@ -5,7 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - CinemachineTarget
-  - item
+  - Cash
+  - Cash1
+  - Cash2
+  - Cash3
   layers:
   - Default
   - TransparentFX
