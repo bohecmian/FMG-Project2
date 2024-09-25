@@ -33,7 +33,7 @@ public class Press : MonoBehaviour
 
     public int gold = 100;
     public int gold1 = 500;
-    public int gold2 = 5000;
+    public int gold2 = 2000;
 
     public int art = 500;
 

@@ -9,8 +9,6 @@ public class DoorScipt : MonoBehaviour
     [SerializeField] Press PP;
     public GameObject GoldDoor;
     public GameObject ArtDoor;
-    public GameObject HallDoor;
-    public GameObject ScurityDoor;
     public GameObject DoorEnter;
     void Start()
     {
@@ -41,14 +39,6 @@ public class DoorScipt : MonoBehaviour
                 DoorEnter.SetActive(false);
             }
 
-        }
-        if(other.gameObject.tag == "Player")
-        {
-            Destroy(HallDoor);
-        }
-        if (other.gameObject.tag == "Player")
-        {
-            Destroy(ScurityDoor);
         }
     }
 

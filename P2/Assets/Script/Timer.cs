@@ -28,7 +28,7 @@ public class Timer : MonoBehaviour
         tex.text = b.ToString();
         if (countdown <= 0)
         {
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("GaryBox");
         }
     }
 }

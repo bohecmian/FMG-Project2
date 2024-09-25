@@ -8099,8 +8099,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.006279787, y: 0.003943994, z: 0.0039381715}
-  m_Center: {x: -0.000028415001, y: -0.0020398523, z: 0.0022824316}
+  m_Size: {x: 0.010124391, y: 0.00741176, z: 0.0039381725}
+  m_Center: {x: -0.00067037344, y: -0.0022959674, z: 0.002282432}
 --- !u!54 &204886296
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -32160,7 +32160,7 @@ PrefabInstance:
       addedObject: {fileID: 753314326}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 38d70ee7b213ca146827906a0c37fd7f, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 753314331}
+      addedObject: {fileID: 753314336}
   m_SourcePrefab: {fileID: 100100000, guid: 38d70ee7b213ca146827906a0c37fd7f, type: 3}
 --- !u!1 &753314325 stripped
 GameObject:
@@ -32189,7 +32189,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1411691706130782835, guid: b65f1fbde525e704791a2b934bda0efb, type: 3}
---- !u!114 &753314331
+--- !u!114 &753314336
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -32198,15 +32198,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 753314325}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e68b74f1bafcc894cbc0e5a15252a8b4, type: 3}
+  m_Script: {fileID: 11500000, guid: b10a32c2d12b841419ab34c6210cd3a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PP: {fileID: 0}
-  GoldDoor: {fileID: 0}
-  ArtDoor: {fileID: 0}
-  HallDoor: {fileID: 2125939539}
-  ScurityDoor: {fileID: 753314325}
-  DoorEnter: {fileID: 584301889}
+  SecutityDoor: {fileID: 753314325}
 --- !u!43 &809012059
 Mesh:
   m_ObjectHideFlags: 0
@@ -42744,8 +42739,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.0055226935, y: 0.0061783, z: 0.002072245}
-  m_Center: {x: 0.00013879186, y: 0.00041200305, z: 0.00085972255}
+  m_Size: {x: 0.011001947, y: 0.008683505, z: 0.002072245}
+  m_Center: {x: 0.0028784126, y: -0.00084060244, z: 0.0008597165}
 --- !u!1 &1145792490 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 71c8c6ec2e4a0c14a8e0ff69569d51a0, type: 3}
@@ -45796,8 +45791,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.006279787, y: 0.003943994, z: 0.0039381715}
-  m_Center: {x: -0.000028415001, y: -0.0020398523, z: 0.0022824316}
+  m_Size: {x: 0.0106827635, y: 0.007684399, z: 0.0039381725}
+  m_Center: {x: 0.00011670321, y: -0.002284767, z: 0.002282432}
 --- !u!54 &1223223390
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -53940,8 +53935,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.006279787, y: 0.003943994, z: 0.0039381715}
-  m_Center: {x: -0.000028415001, y: -0.0020398523, z: 0.0022824316}
+  m_Size: {x: 0.0080210995, y: 0.006873921, z: 0.003938172}
+  m_Center: {x: 0.00084224105, y: -0.0035048185, z: 0.0022824332}
 --- !u!54 &1344760022
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -92751,8 +92746,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.006279787, y: 0.003943994, z: 0.0039381715}
-  m_Center: {x: -0.000028415001, y: -0.0020398523, z: 0.0022824316}
+  m_Size: {x: 0.009990421, y: 0.007678245, z: 0.003938172}
+  m_Center: {x: -0.00057973684, y: -0.0019328505, z: 0.0022824332}
 --- !u!54 &1805632520
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -94250,8 +94245,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.006279787, y: 0.003943994, z: 0.0039381715}
-  m_Center: {x: -0.000028415001, y: -0.0020398523, z: 0.0022824316}
+  m_Size: {x: 0.011295821, y: 0.008661692, z: 0.0039381725}
+  m_Center: {x: -0.00078681234, y: -0.0025701362, z: 0.002282432}
 --- !u!54 &1881724438
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -110218,7 +110213,7 @@ PrefabInstance:
       addedObject: {fileID: 2125939540}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 38d70ee7b213ca146827906a0c37fd7f, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2125939545}
+      addedObject: {fileID: 2125939550}
   m_SourcePrefab: {fileID: 100100000, guid: 38d70ee7b213ca146827906a0c37fd7f, type: 3}
 --- !u!1 &2125939539 stripped
 GameObject:
@@ -110247,7 +110242,7 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1411691706130782835, guid: b65f1fbde525e704791a2b934bda0efb, type: 3}
---- !u!114 &2125939545
+--- !u!114 &2125939550
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -110256,15 +110251,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2125939539}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e68b74f1bafcc894cbc0e5a15252a8b4, type: 3}
+  m_Script: {fileID: 11500000, guid: 226d3fc3c4dd61a4ba09262b0f4dfc42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PP: {fileID: 0}
-  GoldDoor: {fileID: 0}
-  ArtDoor: {fileID: 0}
   HallDoor: {fileID: 2125939539}
-  ScurityDoor: {fileID: 753314325}
-  DoorEnter: {fileID: 584301889}
 --- !u!1 &2134240400 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 826cee5cf8d5a7846ae1673b8b2d8bf4, type: 3}
