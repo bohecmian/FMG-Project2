@@ -18,7 +18,7 @@ public class Quit : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            if(P.CashItem >= 1)
+            if(P.CashItem >= 500)
             {
                 SceneManager.LoadScene("SampleScene");
             }

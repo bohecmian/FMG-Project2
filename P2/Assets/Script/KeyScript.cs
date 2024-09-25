@@ -10,14 +10,16 @@ public class KeyScript : MonoBehaviour
 
     void Start()
     {
-        doorCollider.SetActive(false);
+        doorCollider.SetActive(true);
     }
 
     // Update is called once per frame
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
+        {
             doorCollider.SetActive(true);
             Destroy(gameObject);
+        }
     }
 }
