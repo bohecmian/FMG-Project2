@@ -1,12 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using static UnityEditor.Progress;
 
 public class Press : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject CollectText;
     public GameObject Cash;
+
+    public int CashItem = 0;
+
+    public TextMeshProUGUI itemText;
     void Start()
     {
         Cash.SetActive(true);
@@ -25,6 +31,9 @@ public class Press : MonoBehaviour
             {
                 Destroy(Cash);
                 CollectText.SetActive(false);
+                CashItem++;
+                itemText.text = "Cash: " + CashItem.ToString();
+                Debug.Log(CashItem);
             }
         }
     }
