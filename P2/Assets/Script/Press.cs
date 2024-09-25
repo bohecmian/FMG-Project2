@@ -20,6 +20,12 @@ public class Press : MonoBehaviour
     public GameObject GoldKey;
     public bool goldkey = false;
 
+    public GameObject ArtKey;
+    public bool artKey = false;
+
+    public GameObject Art;
+
+
     public int cash = 100;
     public int cash1 = 200;
     public int cash2 = 300;
@@ -29,13 +35,15 @@ public class Press : MonoBehaviour
     public int gold1 = 500;
     public int gold2 = 5000;
 
+    public int art = 1000;
+
 
     public int CashItem = 0;
     public int GoldItem = 0;
-    public int ArtIterm = 0;
+    public int ArtItem = 0;
 
     public TextMeshProUGUI itemText;
-    public TextMeshProUGUI GlodText;
+    public TextMeshProUGUI GoldText;
     public TextMeshProUGUI ArtText;
     void Start()
     {
@@ -131,7 +139,7 @@ public class Press : MonoBehaviour
                     Destroy(Gold);
                     CollectText.SetActive(false);
                 }
-                itemText.text = "Gold: " + GoldItem.ToString();
+                GoldText.text = "Gold: " + GoldItem.ToString();
                 Debug.Log(GoldItem);
             }
         }
@@ -149,7 +157,7 @@ public class Press : MonoBehaviour
                     Destroy(Gold1);
                     CollectText.SetActive(false);
                 }
-                itemText.text = "Gold: " + GoldItem.ToString();
+                GoldText.text = "Gold: " + GoldItem.ToString();
                 Debug.Log(GoldItem);
             }
         }
@@ -167,8 +175,26 @@ public class Press : MonoBehaviour
                     Destroy(Gold2);
                     CollectText.SetActive(false);
                 }
-                itemText.text = "Gold: " + GoldItem.ToString();
+                GoldText.text = "Gold: " + GoldItem.ToString();
                 Debug.Log(GoldItem);
+            }
+        }
+        else if (other.gameObject.tag == "Art")
+        {
+            CollectText.SetActive(true);
+
+            if (Input.GetKey(KeyCode.E))
+            {
+                ArtItem++;
+                art--;
+
+                if (art <= 0)
+                {
+                    Destroy(Art);
+                    CollectText.SetActive(false);
+                }
+                ArtText.text = "Art: " + ArtItem.ToString();
+                Debug.Log(ArtItem);
             }
         }
     }

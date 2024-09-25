@@ -12,6 +12,7 @@ TagManager:
   - Gold
   - Gold1
   - Gold2
+  - Art
   layers:
   - Default
   - TransparentFX
