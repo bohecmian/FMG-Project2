@@ -1,0 +1,9 @@
+# Created by Metasequoia
+
+newmtl mat1
+Ka 0.09474 0.09474 0.09474
+Kd 1.00000 1.00000 1.00000
+Ks 0.00000 0.00000 0.00000
+Ns 0.00000
+map_Kd f_diva_stgns105_nk_stage_01.png
+
