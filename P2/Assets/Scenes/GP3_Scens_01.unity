@@ -43513,7 +43513,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  m_Mesh: {fileID: 2076607248}
 --- !u!33 &1036485466
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -85008,19 +85008,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 680d580d484d11442b1a3ba972da0167, type: 3}
       propertyPath: m_LocalScale.x
-      value: 113.259995
+      value: 55.406124
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 680d580d484d11442b1a3ba972da0167, type: 3}
       propertyPath: m_LocalScale.y
-      value: 78.058784
+      value: 62.422485
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 680d580d484d11442b1a3ba972da0167, type: 3}
       propertyPath: m_LocalScale.z
-      value: 142.15262
+      value: 69.54022
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 680d580d484d11442b1a3ba972da0167, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.003
+      value: -7.458
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 680d580d484d11442b1a3ba972da0167, type: 3}
       propertyPath: m_LocalPosition.y
@@ -85028,7 +85028,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 680d580d484d11442b1a3ba972da0167, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.2
+      value: -1.101
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 680d580d484d11442b1a3ba972da0167, type: 3}
       propertyPath: m_LocalRotation.w
