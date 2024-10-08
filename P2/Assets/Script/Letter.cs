@@ -9,11 +9,12 @@ public class Letter : MonoBehaviour
 
     //The UI version of the letter that appears after picking up the letter.
     public GameObject LetterUI;
+    public GameObject LetterUI1;
+    public GameObject LetterUI2;
 
-    //The toggle bool determines if the letter is being picked up or put down.
     bool toggle;
+    int L = 0;
 
-    //The player's script. My player's script is called "SC_FPSController", change the name of the player script if your player's script name is different.
     public FirstPersonController player;
 
     //The Mesh Renderer component of your letter that disables after picking up the letter and enables when putting it back down.
@@ -39,6 +40,33 @@ public class Letter : MonoBehaviour
             LetterUI.SetActive(true);
             letterMesh.enabled = false;
             player.enabled = false;
+            L = 1;
+        }
+        else if(L >= 1 && toggle == false)
+        {
+            LetterUI1.SetActive(false);
+            letterMesh.enabled = true;
+            player.enabled = true;
+        }
+        else if (L >= 1 && toggle == true)
+        {
+            LetterUI1.SetActive(true);
+            letterMesh.enabled = false;
+            player.enabled = false;
+            L = 2;
+        }
+        else if (L >= 2 && toggle == false)
+        {
+            LetterUI2.SetActive(false);
+            letterMesh.enabled = true;
+            player.enabled = true;
+        }
+        else if (L >= 2 && toggle == true)
+        {
+            LetterUI2.SetActive(true);
+            letterMesh.enabled = false;
+            player.enabled = false;
+            L = 3;
         }
     }
 }
