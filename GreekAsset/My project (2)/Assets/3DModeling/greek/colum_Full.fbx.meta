@@ -1,11 +1,64 @@
 fileFormatVersion: 2
 guid: 922d09d36e7f22c4eb7b7263f95ab881
 ModelImporter:
+<<<<<<< Updated upstream:GreekAsset/My project (2)/Assets/3DModeling/greek/colum_Full.fbx.meta
   serializedVersion: 22200
   internalIDToNameTable: []
   externalObjects: {}
+=======
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Camera
+    100002: colum1.001
+    100004: colum2
+    100006: colum3
+    100008: colum4
+    100010: //RootNode
+    100012: Light
+    100014: "\u30BB\u30F3\u30BF\u30FC"
+    100016: "\u30BB\u30F3\u30BF\u30FC_end"
+    100018: "\u5168\u3066\u306E\u89AA"
+    400000: Camera
+    400002: colum1.001
+    400004: colum2
+    400006: colum3
+    400008: colum4
+    400010: //RootNode
+    400012: Light
+    400014: "\u30BB\u30F3\u30BF\u30FC"
+    400016: "\u30BB\u30F3\u30BF\u30FC_end"
+    400018: "\u5168\u3066\u306E\u89AA"
+    2000000: Camera
+    2300000: colum2
+    2300002: colum3
+    2300004: colum4
+    3300000: colum2
+    3300002: colum3
+    3300004: colum4
+    4300000: colum2
+    4300002: colum3
+    4300004: colum4
+    4300006: colum1.001
+    6400000: colum2
+    6400002: colum3
+    6400004: colum4
+    9500000: //RootNode
+    10800000: Light
+    13700000: colum1.001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat1.002
+    second: {fileID: 2100000, guid: dfa0bd7e782a9d248a0b6e791ce9c1ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat1.003
+    second: {fileID: 2100000, guid: dfa0bd7e782a9d248a0b6e791ce9c1ff, type: 2}
+>>>>>>> Stashed changes:P2/Assets/Scenes/Model/_Greek/colum_Full.fbx.meta
   materials:
-    materialImportMode: 2
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -14,7 +67,6 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
-    removeConstantScaleCurves: 0
     motionNodeName: 
     rigImportErrors: 
     rigImportWarnings: 
@@ -39,36 +91,25 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
-    importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
-    nodeNameCollisionStrategy: 1
-    fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
-    bakeAxisConversion: 0
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    optimizeBones: 1
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
-    secondaryUVMarginMethod: 1
-    secondaryUVMinLightmapResolution: 40
-    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
-    strictVertexDataChecks: 0
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -77,10 +118,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
+  copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -90,19 +131,13 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
-  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
-  importBlendShapeDeformPercent: 1
-  remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
