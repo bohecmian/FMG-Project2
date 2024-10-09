@@ -6,6 +6,7 @@ using UnityEngine;
 public class Letter : MonoBehaviour
 {
     public GameObject LetterUI;
+    public GameObject CurrentLetter;
 
     bool toggle;
 
@@ -25,6 +26,7 @@ public class Letter : MonoBehaviour
             LetterUI.SetActive(false);
             letterMesh.enabled = true;
             player.enabled = true;
+            Destroy(CurrentLetter);
         }
         //If toggle equals true, that means the player is picking up the letter.
         if (toggle == true)
