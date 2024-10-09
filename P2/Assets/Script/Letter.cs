@@ -9,11 +9,10 @@ public class Letter : MonoBehaviour
 
     //The UI version of the letter that appears after picking up the letter.
     public GameObject LetterUI;
-    public GameObject LetterUI1;
-    public GameObject LetterUI2;
+
 
     bool toggle;
-    int L = 0;
+    int LE = 0;
 
     public FirstPersonController player;
 
@@ -32,41 +31,14 @@ public class Letter : MonoBehaviour
             LetterUI.SetActive(false);
             letterMesh.enabled = true;
             player.enabled = true;
+            LE = 1;
         }
-
         //If toggle equals true, that means the player is picking up the letter.
         if (toggle == true)
         {
             LetterUI.SetActive(true);
             letterMesh.enabled = false;
             player.enabled = false;
-            L = 1;
-        }
-        else if(L >= 1 && toggle == false)
-        {
-            LetterUI1.SetActive(false);
-            letterMesh.enabled = true;
-            player.enabled = true;
-        }
-        else if (L >= 1 && toggle == true)
-        {
-            LetterUI1.SetActive(true);
-            letterMesh.enabled = false;
-            player.enabled = false;
-            L = 2;
-        }
-        else if (L >= 2 && toggle == false)
-        {
-            LetterUI2.SetActive(false);
-            letterMesh.enabled = true;
-            player.enabled = true;
-        }
-        else if (L >= 2 && toggle == true)
-        {
-            LetterUI2.SetActive(true);
-            letterMesh.enabled = false;
-            player.enabled = false;
-            L = 3;
         }
     }
 }
