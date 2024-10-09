@@ -5,19 +5,12 @@ using UnityEngine;
 
 public class Letter : MonoBehaviour
 {
-    //I recommend you watch the full tutorial to know how this script works :)
-
-    //The UI version of the letter that appears after picking up the letter.
     public GameObject LetterUI;
-    public GameObject LetterUI1;
-    public GameObject LetterUI2;
 
     bool toggle;
-    int L = 0;
 
     public FirstPersonController player;
 
-    //The Mesh Renderer component of your letter that disables after picking up the letter and enables when putting it back down.
     public Renderer letterMesh;
 
     //Function to open and close the letter.
@@ -33,40 +26,12 @@ public class Letter : MonoBehaviour
             letterMesh.enabled = true;
             player.enabled = true;
         }
-
         //If toggle equals true, that means the player is picking up the letter.
         if (toggle == true)
         {
             LetterUI.SetActive(true);
             letterMesh.enabled = false;
             player.enabled = false;
-            L = 1;
-        }
-        else if(L >= 1 && toggle == false)
-        {
-            LetterUI1.SetActive(false);
-            letterMesh.enabled = true;
-            player.enabled = true;
-        }
-        else if (L >= 1 && toggle == true)
-        {
-            LetterUI1.SetActive(true);
-            letterMesh.enabled = false;
-            player.enabled = false;
-            L = 2;
-        }
-        else if (L >= 2 && toggle == false)
-        {
-            LetterUI2.SetActive(false);
-            letterMesh.enabled = true;
-            player.enabled = true;
-        }
-        else if (L >= 2 && toggle == true)
-        {
-            LetterUI2.SetActive(true);
-            letterMesh.enabled = false;
-            player.enabled = false;
-            L = 3;
         }
     }
 }
