@@ -1,0 +1,725 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.17f1 (4fc78088f837) revision 5228416'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16108 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\2022.3.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+E:/FMG-Project2/GreekAsset/My project (2)
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+64826
+Successfully changed project path to: E:/FMG-Project2/GreekAsset/My project (2)
+E:/FMG-Project2/GreekAsset/My project (2)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [38728] Host "[IP] 10.0.0.160 [Port] 0 [Flags] 2 [Guid] 1378353112 [EditorId] 1378353112 [Version] 1048832 [Id] WindowsEditor(7,EUthana) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [38728] Host "[IP] 10.0.0.160 [Port] 0 [Flags] 2 [Guid] 1378353112 [EditorId] 1378353112 [Version] 1048832 [Id] WindowsEditor(7,EUthana) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
+Refreshing native plugins compatible for Editor in 6.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.17f1 (4fc78088f837)
+[Subsystems] Discovering subsystems at path E:/2022.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/FMG-Project2/GreekAsset/My project (2)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Vendor:   NVIDIA
+    VRAM:     5996 MB
+    Driver:   31.0.15.5222
+Initialize mono
+Mono path[0] = 'E:/2022.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'E:/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/2022.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56116
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002850 seconds.
+- Loaded All Assemblies, in  0.291 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.197 seconds
+Domain Reload Profiling: 488ms
+	BeginReloadAssembly (121ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (103ms)
+		LoadAssemblies (121ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (101ms)
+			TypeCache.Refresh (99ms)
+				TypeCache.ScanAssembly (88ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (197ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (154ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (103ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.497 seconds
+Refreshing native plugins compatible for Editor in 1.58 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.436 seconds
+Domain Reload Profiling: 933ms
+	BeginReloadAssembly (141ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (298ms)
+		LoadAssemblies (255ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (135ms)
+			TypeCache.Refresh (122ms)
+				TypeCache.ScanAssembly (110ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (436ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (331ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (38ms)
+			ProcessInitializeOnLoadAttributes (271ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 3.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3092 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.3 KB). Loaded Objects now: 3553.
+Memory consumption went from 123.2 MB to 123.1 MB.
+Total: 2.441200 ms (FindLiveObjects: 0.176900 ms CreateObjectMapping: 0.105100 ms MarkObjects: 2.048200 ms  DeleteObjects: 0.110300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 338999.363496 seconds.
+  path: Assets/3DModeling/greek/garden.mqo
+  artifactKey: Guid(d0bf9cdb562b27246a5ad501d9b2a7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/greek/garden.mqo using Guid(d0bf9cdb562b27246a5ad501d9b2a7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f455c9ccd5b0946a599b927ce74706e6') in 0.008603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.832144 seconds.
+  path: Assets/3DModeling/greek/plants.pmd
+  artifactKey: Guid(8120bb792d837394a93254f00cc16e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/greek/plants.pmd using Guid(8120bb792d837394a93254f00cc16e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4480781d75c9c05b63c30b263071c2b') in 0.000679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.871748 seconds.
+  path: Assets/3DModeling/greek/greek.pmd
+  artifactKey: Guid(9a97168ab98a20b4fbbccedd85977b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/greek/greek.pmd using Guid(9a97168ab98a20b4fbbccedd85977b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb1c8f62330c0857bc6de9e0ffab250f') in 0.000661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.565495 seconds.
+  path: Assets/3DModeling/greek/greek.pmx
+  artifactKey: Guid(992aeeeaadf69254e9007ab90b8a859b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/greek/greek.pmx using Guid(992aeeeaadf69254e9007ab90b8a859b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad0056070db6800e249f3c9b6b798863') in 0.000619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.432847 seconds.
+  path: Assets/3DModeling/greek/garden.mqx
+  artifactKey: Guid(a605525bd41332145a06a095788d9b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/greek/garden.mqx using Guid(a605525bd41332145a06a095788d9b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a9213955dadc6ced6f62cd7eb3a66cb') in 0.000645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.834020 seconds.
+  path: Assets/3DModeling/greek/使用前读我.txt
+  artifactKey: Guid(ad9d3cd9e1ef4584389d9d947ef2d47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/greek/使用前读我.txt using Guid(ad9d3cd9e1ef4584389d9d947ef2d47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '017a38e0002298db82f1a544b63251e5') in 0.000814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 271.499300 seconds.
+  path: Assets/3DModeling/step&colums
+  artifactKey: Guid(386021438fb4651419fce6b2caaad385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums using Guid(386021438fb4651419fce6b2caaad385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e50ac02e7a4da4a98d302f7aa25b0cf9') in 0.000571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.073744 seconds.
+  path: Assets/3DModeling/step&colums/c1.obj
+  artifactKey: Guid(0cf7043a60a06e742bbc5065d19ecdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/c1.obj using Guid(0cf7043a60a06e742bbc5065d19ecdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e369f3274d7f45981d26baf4d719a39c') in 0.124921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_007.png
+  artifactKey: Guid(1b3c4df9278d9744f916836e43385632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_007.png using Guid(1b3c4df9278d9744f916836e43385632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60524439d497b18bcf16e4c4ec367bba') in 0.015318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_033.png
+  artifactKey: Guid(65e8b42fe6b38744a9bfc33d06a05f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_033.png using Guid(65e8b42fe6b38744a9bfc33d06a05f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a88d9b0d65066a699e2bea51a7d3c1') in 0.005784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_011.png
+  artifactKey: Guid(1e81a76a828c0cc4c925b979d04dabef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_011.png using Guid(1e81a76a828c0cc4c925b979d04dabef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3752a3ae078c46015f5de677177cffef') in 0.004252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_020.png
+  artifactKey: Guid(343ed7401d17ff844acabff44f7c87b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_020.png using Guid(343ed7401d17ff844acabff44f7c87b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bba2f86119f7f1ba556121f178d3225') in 0.005254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_001.png
+  artifactKey: Guid(91de97d665d214a4cacefe4e4dc0b697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_001.png using Guid(91de97d665d214a4cacefe4e4dc0b697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f862d27474947e93cbc2498e04a6bdea') in 0.005100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_023.png
+  artifactKey: Guid(26584854f6d35264c9ba478fab635314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_023.png using Guid(26584854f6d35264c9ba478fab635314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c569c1ca9071eb4fe62a62aef654fb9') in 0.004385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_014.png
+  artifactKey: Guid(e161d4e13e3f7944dbf875659135f34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_014.png using Guid(e161d4e13e3f7944dbf875659135f34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a13a38991fbfa1e66cce86d056f20260') in 0.005556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_032.png
+  artifactKey: Guid(ec57ad6d05e451947866e9080694fbc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_032.png using Guid(ec57ad6d05e451947866e9080694fbc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f294c3f90e866017b73033f18f0eb6d5') in 0.005596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_003.png
+  artifactKey: Guid(9d50e7bbed374d84b92f81eb04dda88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_003.png using Guid(9d50e7bbed374d84b92f81eb04dda88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb3b6f6761b549b63ed9d160dff0f0c') in 0.005959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3DModeling/step&colums/c6.obj
+  artifactKey: Guid(5b6a9026a643c7345a15711087b6f855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/c6.obj using Guid(5b6a9026a643c7345a15711087b6f855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9335650989036627e13d1b77a2379179') in 0.016701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_046.png
+  artifactKey: Guid(d8c05fd4749954d438878c1f3d8ffb5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_046.png using Guid(d8c05fd4749954d438878c1f3d8ffb5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba2db7a983ef23919c9e76fcc1498b5') in 0.005491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_036.png
+  artifactKey: Guid(1b8ad0a075f82f742be62ac64c56cfbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_036.png using Guid(1b8ad0a075f82f742be62ac64c56cfbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63b6ea4208657e55f95a6f41e2989a8b') in 0.005467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_029.png
+  artifactKey: Guid(e78886e31bd89244c8d05917267f001e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_029.png using Guid(e78886e31bd89244c8d05917267f001e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa23932bb767d8e07328cde957e3ce6') in 0.005665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_048.png
+  artifactKey: Guid(86e4c2ab1b1893847aa6637924ec4b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_048.png using Guid(86e4c2ab1b1893847aa6637924ec4b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862bd9a49e97519f2f1689dd5b49106a') in 0.005029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3DModeling/step&colums/c5.obj
+  artifactKey: Guid(0e01901c5b0e2b349a640bfcb4679aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/c5.obj using Guid(0e01901c5b0e2b349a640bfcb4679aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8cc163f0ee06075d724e9a47c2f8db') in 0.016717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_053.png
+  artifactKey: Guid(ca4ac4deb4a504f4296c60c838ec64c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_053.png using Guid(ca4ac4deb4a504f4296c60c838ec64c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ccc3367704318ea6abf363d9b14337e') in 0.004171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_017.png
+  artifactKey: Guid(663b21a6885d4364989b8240a4f60aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_017.png using Guid(663b21a6885d4364989b8240a4f60aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd25f1262e09a9756126c51c779ebf02') in 0.006378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3DModeling/step&colums/c7.obj
+  artifactKey: Guid(13071391c2bffad48879fcb60b177564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/c7.obj using Guid(13071391c2bffad48879fcb60b177564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b72d674321faa4f489d269fb90a03c0') in 0.015925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_049.png
+  artifactKey: Guid(42f8cb5a935e80543a05aadad5fdcf6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_049.png using Guid(42f8cb5a935e80543a05aadad5fdcf6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb88ec0d6e0d1006fe465a19255152cf') in 0.006492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/3DModeling/step&colums/c3.obj
+  artifactKey: Guid(c64c7c63c53340a43b75f4b802c9b778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/c3.obj using Guid(c64c7c63c53340a43b75f4b802c9b778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b90ba9c356a098a48c3bc0d6c0c9f0') in 0.023626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_025.png
+  artifactKey: Guid(f51ba2db1c2e3e04d8e2f936d989b724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_025.png using Guid(f51ba2db1c2e3e04d8e2f936d989b724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '347327294f95b6067819557ab780d986') in 0.007869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_050.png
+  artifactKey: Guid(afa5fd6c7a4e63048b0059701c08e6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_050.png using Guid(afa5fd6c7a4e63048b0059701c08e6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3786fb6c0cf410becf8cda9b08528fa7') in 0.006392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_027.png
+  artifactKey: Guid(700df8938fcf6004a9003773b22f95de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_027.png using Guid(700df8938fcf6004a9003773b22f95de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf09c47179045447603204bdd572d179') in 0.005961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_024.png
+  artifactKey: Guid(d705d0593c46c7b4380e02c6e9691a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_024.png using Guid(d705d0593c46c7b4380e02c6e9691a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5e7250aefe77cadd250de2cd29f8b0f') in 0.006472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_019.png
+  artifactKey: Guid(01f663d5d69e6774bae817c16f2c0a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_019.png using Guid(01f663d5d69e6774bae817c16f2c0a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f525b3819f6d7a3bfed6d2d09a44375') in 0.006589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_026.png
+  artifactKey: Guid(59a375769515a0e4e87be178326cb535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_026.png using Guid(59a375769515a0e4e87be178326cb535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2902cc76db3ce863d9845934a7bc2dc9') in 0.006058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_004.png
+  artifactKey: Guid(8c16eb39ae91b3e4fb05b45b40bf7092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_004.png using Guid(8c16eb39ae91b3e4fb05b45b40bf7092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97fd4156c1fb685b747f9244c5fa6671') in 0.004627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_006.png
+  artifactKey: Guid(5ccf5585226939c4a863a4e77be80b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_006.png using Guid(5ccf5585226939c4a863a4e77be80b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe31a61c14d1338df2a7ed3434a5020') in 0.009579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_031.png
+  artifactKey: Guid(3b6e47401c76df04789d37edf439822b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_031.png using Guid(3b6e47401c76df04789d37edf439822b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a27897fc63133ae80772f372d74104e4') in 0.006163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.721826 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_058.png
+  artifactKey: Guid(60009f317649c0341a79db0a8d85540e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_058.png using Guid(60009f317649c0341a79db0a8d85540e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fff6e58b508929a5f0d6baf8911bc69') in 0.008254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_071.png
+  artifactKey: Guid(db56ca518591aaf45ae2b06f8c320edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_071.png using Guid(db56ca518591aaf45ae2b06f8c320edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ec783715e7426a8dc880a69753784d') in 0.005456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_067.png
+  artifactKey: Guid(785ad24f6c64dcf458885f6043052b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_067.png using Guid(785ad24f6c64dcf458885f6043052b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4884a6080dfae22c0152a927e5ec069e') in 0.004689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_069.png
+  artifactKey: Guid(ec16d564fca7cfa4ab67e57204f78f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_069.png using Guid(ec16d564fca7cfa4ab67e57204f78f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b53418270c10ea9330987e368c31630') in 0.006618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_064.png
+  artifactKey: Guid(99af7588add8b164ba8e2fe7cc1dcbfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_064.png using Guid(99af7588add8b164ba8e2fe7cc1dcbfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b87a2653468b337f8ac4a2f6846650') in 0.004664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_074.png
+  artifactKey: Guid(ac75a53ad215ef4489e60694e9e1da07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_074.png using Guid(ac75a53ad215ef4489e60694e9e1da07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952dde4d33cb66ec4d1ccd77eaf312f4') in 0.005036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_066.png
+  artifactKey: Guid(f79b670f275079c46b5998bf6453b6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_066.png using Guid(f79b670f275079c46b5998bf6453b6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a35d40981e6454faea851efbafa792a') in 0.005802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_nk_gaihekiref.png
+  artifactKey: Guid(889e288d2958b214b8b3efe92377ee76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_nk_gaihekiref.png using Guid(889e288d2958b214b8b3efe92377ee76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bdf202b96de75a4ca19bc7477703bd5') in 0.006397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_nk_kabe.png
+  artifactKey: Guid(ec5752375ff20ca45b0e74ca1d149927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_nk_kabe.png using Guid(ec5752375ff20ca45b0e74ca1d149927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1583fb7c684df326a8804eb8903c9c46') in 0.006106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_nk_hakage.png
+  artifactKey: Guid(6abe762f7eb1f3148a9ff8d24af0426a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_nk_hakage.png using Guid(6abe762f7eb1f3148a9ff8d24af0426a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '354d12fee37a3cd456420ec9ac93d17e') in 0.006718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_nk_cherry_kage.png
+  artifactKey: Guid(c50bb569a06719846baa9ed27841efff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_nk_cherry_kage.png using Guid(c50bb569a06719846baa9ed27841efff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4afd209f8121e25a7d08b2a876463523') in 0.006045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_nk_cup2_n.png
+  artifactKey: Guid(ad6fa3408d5cadd479ce32025e4d191a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_nk_cup2_n.png using Guid(ad6fa3408d5cadd479ce32025e4d191a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7227f8d224f8ea26ab704d0813c1e62c') in 0.004891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_nk_cherry2.png
+  artifactKey: Guid(98f56db8ae7d0ca4a99969c4a413b00f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_nk_cherry2.png using Guid(98f56db8ae7d0ca4a99969c4a413b00f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0220d8c76fd98e1c791b3460fd7edce') in 0.007132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_nk_stg_kage.png
+  artifactKey: Guid(6d74b1e85d231fa499429e5189b289f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_nk_stg_kage.png using Guid(6d74b1e85d231fa499429e5189b289f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7de939637f9aff549279eedc55ad708') in 0.007406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_nk_soto_kage.png
+  artifactKey: Guid(d463192ecb9f4b04c951b617d268bc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_nk_soto_kage.png using Guid(d463192ecb9f4b04c951b617d268bc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f30da3c1f01cd88c7a14b32b71b600f') in 0.006097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_nk_karten_n2sm.png
+  artifactKey: Guid(bc7c6e1bd0a2ca442a129d9fbfe3bf75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_nk_karten_n2sm.png using Guid(bc7c6e1bd0a2ca442a129d9fbfe3bf75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5bb6a5b723181d76815a3759868a0be') in 0.006513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_nk_katen.png
+  artifactKey: Guid(03173f0e30651d14681338b12aa3ec59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_nk_katen.png using Guid(03173f0e30651d14681338b12aa3ec59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fdb12242726d8710384b4f916998c14') in 0.006051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_nk_mawari_kage.png
+  artifactKey: Guid(d234a06994254ff4fa6e66e3f2124baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_nk_mawari_kage.png using Guid(d234a06994254ff4fa6e66e3f2124baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af54427e2b1bcdcabd1936360fa9f99e') in 0.005836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_nk_katen2.png
+  artifactKey: Guid(08ec3c19ec0b08a409e7d8ce012f0e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_nk_katen2.png using Guid(08ec3c19ec0b08a409e7d8ce012f0e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c740cebfd68616628c827ede608d4f') in 0.006866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_nk_hanabira.png
+  artifactKey: Guid(79a5d0c3ec5883f458cbfae73bb725ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_nk_hanabira.png using Guid(79a5d0c3ec5883f458cbfae73bb725ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f87d98dd670c0b76dc87e2be60f89ae') in 0.006480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_nk_flowerall.png
+  artifactKey: Guid(81cf6f11d67a48d468f16dae12c6fae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_nk_flowerall.png using Guid(81cf6f11d67a48d468f16dae12c6fae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db662316c34dc8360b9ec6bea0ea8c72') in 0.006379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_nk_stage_01_s.png
+  artifactKey: Guid(785c92e2e09d23547b0bd11582ffb5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_nk_stage_01_s.png using Guid(785c92e2e09d23547b0bd11582ffb5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b240cc35c122af1a366266512882b302') in 0.007814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_nk_lensflare_5.png
+  artifactKey: Guid(a5a7eaee0eb96144da8740834b3e5c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_nk_lensflare_5.png using Guid(a5a7eaee0eb96144da8740834b3e5c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1bea567fa8ac72225db226983b9e9f1') in 0.006358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_068.png
+  artifactKey: Guid(5ef728c2f7d257d4dac1f50460efd8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_hr_bmp_068.png using Guid(5ef728c2f7d257d4dac1f50460efd8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3491353ddeca98811b24c179cc803055') in 0.006681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_nk_table_01.png
+  artifactKey: Guid(cbc5231bb681e9b4faac3d8a6e8e3cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_nk_table_01.png using Guid(cbc5231bb681e9b4faac3d8a6e8e3cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c596bb43f3bbd80fe225c9014b26a528') in 0.005491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_nk_stage_01_n.png
+  artifactKey: Guid(a424ebddebed3434995753d698de0e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_nk_stage_01_n.png using Guid(a424ebddebed3434995753d698de0e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27eb4d1b5c636d8d553c67b3bd2c3d47') in 0.006798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_nk_hanaallr.png
+  artifactKey: Guid(5d15565ecd6ba39419be3f0bbf80f547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_nk_hanaallr.png using Guid(5d15565ecd6ba39419be3f0bbf80f547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f8266de0d6f1b4ccbc7faec6a894fcd') in 0.005760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.229392 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_nk_table_01_s.png
+  artifactKey: Guid(6364ef321eaeefc4db3ad1976d789fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_nk_table_01_s.png using Guid(6364ef321eaeefc4db3ad1976d789fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f021e976ba64ecf9d5dbecd5ae5ce14') in 0.007128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3DModeling/step&colums/f_diva_stgns105_nk_yuka.png
+  artifactKey: Guid(f36b0ea9841279e47abc3a2a43308870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/f_diva_stgns105_nk_yuka.png using Guid(f36b0ea9841279e47abc3a2a43308870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2132a9612f3bb5e46280436e70233bb1') in 0.007254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3DModeling/step&colums/steps_colums_Full.fbx
+  artifactKey: Guid(fb6f2c46ae84ba74bb8db2b1eace5e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/steps_colums_Full.fbx using Guid(fb6f2c46ae84ba74bb8db2b1eace5e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64c3a382d1031533666ef9592b93f762') in 0.072873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3DModeling/step&colums/steps_columsA.fbx
+  artifactKey: Guid(4f1d786b842733544a66244df611edc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModeling/step&colums/steps_columsA.fbx using Guid(4f1d786b842733544a66244df611edc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81274d5b9df682b271951d5989563bde') in 0.058024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
